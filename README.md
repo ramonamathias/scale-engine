@@ -17,15 +17,15 @@ It uses the Competing Consumers pattern, meaning you can spin up multiple worker
 
 ### 1. Install dependencies
 Run this command in your terminal:
-> **npm install**
+<pre><code>npm install</code></pre>
 
 ### 2. Run Redis
 Make sure your local Redis server is running.
 
 ### 3. Start the API server
 Run this command in your terminal:
-> **node server.js**
+<pre><code>node server.js</code></pre>
 
 ### 4. Start a worker
 Run this command in a separate terminal:
-> **node worker.js**
+<pre><code>node worker.js</code></pre>
