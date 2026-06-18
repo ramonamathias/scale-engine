@@ -19,7 +19,6 @@ It uses the Competing Consumers pattern, meaning you can spin up multiple worker
 Run this command in your terminal:
 ```bash
 npm install
-
 2. Run Redis
 Make sure your local Redis server is running.
 
@@ -30,3 +29,6 @@ Bash
 node server.js
 4. Start a worker
 Run this command in a separate terminal:
+
+Bash
+node worker.js
